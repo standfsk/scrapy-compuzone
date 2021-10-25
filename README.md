@@ -1,3 +1,22 @@
-# scrapy-compuzone
+## 컴퓨존 scraper
+scrapy를 사용하여 컴퓨존 웹사이트를 scraping 하는 툴입니다.
 
-scrapy-compuzone
+## Features
+스크랩핑하는 정보
+- category name
+- product name
+- product origin
+- product manufacturer
+- product id
+- product price
+- product title_image url
+- product detail_image url
+
+## 실행순서
+git clone https://github.com/cshyo1004/scrapy-compuzone.git
+pip install -r requirements.txt
+cd compuzone_scrapy/compuzone_scrapy/spiders
+scrapy crawl compuzone_scrapy
+
+## 결과
+compuzone_scrapy/compuzone_scrapy/spiders에 items.json파일이 자동으로 생성되고, 안에 스크랩된 정보들이 입력된다.
