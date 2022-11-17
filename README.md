@@ -11,6 +11,7 @@ scrapy를 사용하여 컴퓨존 웹사이트를 scraping 하는 툴입니다.
 - product price
 - product title_image url
 - product detail_image url
+- delivery_fee
 
 ## 실행순서
 1. git clone https://github.com/cshyo1004/scrapy-compuzone.git
